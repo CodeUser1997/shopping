@@ -1,0 +1,15 @@
+server:
+  port: 100010
+
+spring:
+  application:
+    name: shopping_registery
+
+eureka:
+  client:
+    service-url: http://127.0.0.1:${server.port}/eureka
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 5000
