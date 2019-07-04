@@ -1,0 +1,12 @@
+server:
+  port: 20010
+spring:
+  application:
+    name: shopping-gateway
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5
+    service-url:
+      defaultZone: http://127.0.0.1:10010/eureka
+zuul:
+  prefix: /api  #路由路径前缀
