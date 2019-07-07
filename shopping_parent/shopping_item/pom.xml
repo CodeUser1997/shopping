@@ -9,16 +9,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sulongx.registery</groupId>
-    <artifactId>shopping_registry</artifactId>
+    <groupId>com.sulongx.item</groupId>
+    <artifactId>shopping_item</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>shopping_item_interface</module>
+        <module>shopping_item_service</module>
+    </modules>
+    
+    <packaging>pom</packaging>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
-    </dependencies>
 
 </project>

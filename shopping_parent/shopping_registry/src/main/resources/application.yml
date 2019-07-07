@@ -1,10 +1,8 @@
 server:
-  port: 100010
-
+  port: 10010
 spring:
   application:
     name: shopping_registery
-
 eureka:
   client:
     service-url:

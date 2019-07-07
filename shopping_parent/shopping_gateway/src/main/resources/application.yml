@@ -8,5 +8,7 @@ eureka:
     registry-fetch-interval-seconds: 5
     service-url:
       defaultZone: http://127.0.0.1:10010/eureka
-zuul:
+zuul:   #配置路由，以后可以动过这个来统一访问我们的接口
   prefix: /api  #路由路径前缀
+  routes:
+    item-service: /item/** #商品微服务映射路径
