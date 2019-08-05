@@ -9,8 +9,21 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+
     <groupId>com.sulongx.item</groupId>
     <artifactId>shopping_item_interface</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 </project>
